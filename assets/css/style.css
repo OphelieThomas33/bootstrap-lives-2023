@@ -8,3 +8,8 @@
     background-color: aquamarine;
     border: 1px solid black;
 }
+
+.demo-breakpoint {
+    height: 20px;
+    background-color: coral;
+}
