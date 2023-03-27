@@ -4,12 +4,28 @@
     padding: 0px;
 }
 
-.row * {
-    background-color: aquamarine;
-    border: 1px solid black;
+.list-categories{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
-.demo-breakpoint {
-    height: 20px;
-    background-color: coral;
+@media screen and (min-width: 992px){
+    .list-categories{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.list-categories .category{
+    white-space: nowrap;
+    margin: 10px 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2{
+    font-size: 20px;
 }
